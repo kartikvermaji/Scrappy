@@ -13,7 +13,7 @@ const Fabric = () => {
       </h1>
 
       <div className="w-full lg:w-auto">
-        <div className="flex flex-col lg:flex-row lg:gap-4">
+        <div className="flex flex-col lg:flex-row  lg:gap-4">
           {/* Cotton */}
           <motion.div
             initial={{ opacity: 0, y: 50 }}
@@ -23,7 +23,7 @@ const Fabric = () => {
               transition: { delay: 0, duration: 0.5 },
             }}
             viewport={{ once: true, amount: 0.25 }}
-            className="relative group w-full lg:w-[30vw] h-[40vh] md:h-[60vh] lg:h-[80vh] overflow-hidden rounded-2xl mb-4 lg:mb-0 hover:shadow-xl hover:shadow-slate-700"
+            className="relative group w-full lg:w-[30vw] h-[20vh] md:h-[60vh] lg:h-[80vh] overflow-hidden rounded-2xl mb-2 md:mb-4 lg:mb-0 hover:shadow-xl hover:shadow-slate-700"
           >
             <img
               src={cotton}
@@ -45,7 +45,7 @@ const Fabric = () => {
                 transition: { delay: 0, duration: 0.5 },
               }}
               viewport={{ once: true, amount: 0.5 }}
-              className="relative group h-[25vh] md:h-[30vh] lg:h-[38vh] w-full overflow-hidden rounded-2xl hover:shadow-xl hover:shadow-slate-700"
+              className="relative group h-[15vh] md:h-[30vh] lg:h-[38vh] w-full overflow-hidden rounded-2xl hover:shadow-xl hover:shadow-slate-700"
             >
               <img
                 src={leelan}
@@ -58,7 +58,7 @@ const Fabric = () => {
             </motion.div>
 
             {/* Hojri + Mix */}
-            <div className="flex flex-col md:flex-row gap-2 mt-2">
+            <div className="flex flex-col md:flex-row gap-2 md:mt-2">
               {/* Hojri */}
               <motion.div
                 initial={{ opacity: 0, y: 80 }}
@@ -68,7 +68,7 @@ const Fabric = () => {
                   transition: { delay: 0, duration: 0.25 },
                 }}
                 viewport={{ once: true, amount: 0.5 }}
-                className="relative group h-[25vh] md:h-[30vh] lg:h-[40vh] w-full md:w-1/2 overflow-hidden rounded-2xl hover:shadow-xl hover:shadow-slate-700"
+                className="relative group h-[15vh] md:h-[30vh] lg:h-[40vh] w-full md:w-1/2 overflow-hidden rounded-2xl hover:shadow-xl hover:shadow-slate-700"
               >
                 <img
                   src={hojri}
@@ -89,7 +89,7 @@ const Fabric = () => {
                   transition: { delay: 0, duration: 0.25 },
                 }}
                 viewport={{ once: true, amount: 0.5 }}
-                className="relative group h-[25vh] md:h-[30vh] lg:h-[40vh] w-full md:w-1/2 overflow-hidden rounded-2xl hover:shadow-xl hover:shadow-slate-700"
+                className="relative group h-[15vh] md:h-[30vh] lg:h-[40vh] w-full md:w-1/2 overflow-hidden rounded-2xl hover:shadow-xl hover:shadow-slate-700"
               >
                 <img
                   src={mix}

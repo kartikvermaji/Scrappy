@@ -10,11 +10,11 @@ const Hero = () => {
   
     return (
     <div>
-      <div className='bg-black h-[100vh]'id='home' >
+      <div className='bg-black h-[60vh] md:h-[100vh]'id='home' >
           
         <motion.img
            style={{ scale }}
-         src={herocam} alt="" className='h-[100vh] w-[100vw] object-cover absolute' />
+         src={herocam} alt="" className='h-[60vh] md:h-[100vh] w-[100vw] object-cover absolute' />
     
      <div className='text-slate-50 flex flex-col  relative text-center items-center pt-40 md:pt-40 lg:pt-[30vh]'>
      <motion.p
@@ -25,7 +25,7 @@ const Hero = () => {
        transition: { delay: 0.15, duration:1 },
      }}
      viewport={{ once:true, amount: 0.5 }}
-      className='md:text-6xl text-lg p-2   mt-5 font-bold tracking-wide font-[Poppins]'>Scrap & Stitch</motion.p>
+      className='md:text-6xl text-4xl p-2   mt-5 font-bold tracking-wide font-[Poppins]'>Scrap & Stitch</motion.p>
      <motion.p
      initial={{ opacity: 0,y:100 }}
      whileInView={{

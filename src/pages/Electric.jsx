@@ -31,7 +31,7 @@ const Electric = () => {
                 transition: { delay: 0, duration: 0.25 },
               }}
               viewport={{ once: true, amount: 0.5 }}
-              className="relative group h-[35vh] sm:h-[40vh] w-full overflow-hidden rounded-2xl transition-shadow duration-300 ease-in-out hover:shadow-xl hover:shadow-slate-700"
+              className="relative group h-[20vh] sm:h-[40vh] w-full overflow-hidden rounded-2xl transition-shadow duration-300 ease-in-out hover:shadow-xl hover:shadow-slate-700"
             >
               <img
                 src={heavy}
@@ -52,7 +52,7 @@ const Electric = () => {
                 transition: { delay: 0, duration: 0.25 },
               }}
               viewport={{ once: true, amount: 0.25 }}
-              className="relative group h-[40vh] w-full overflow-hidden rounded-2xl transition-shadow duration-300 ease-in-out hover:shadow-xl hover:shadow-slate-700"
+              className="relative group h-[20vh] md:h-[40vh] w-full overflow-hidden rounded-2xl transition-shadow duration-300 ease-in-out hover:shadow-xl hover:shadow-slate-700"
             >
               <img
                 src={comp}
@@ -74,7 +74,7 @@ const Electric = () => {
               transition: { delay: 0, duration: 0.5 },
             }}
             viewport={{ once: true, amount: 0.5 }}
-            className="relative group h-[60vh] sm:h-[70vh] lg:h-[80vh] w-full lg:w-[55%] overflow-hidden rounded-2xl transition-shadow duration-300 ease-in-out hover:shadow-xl hover:shadow-slate-700"
+            className="relative group h-[20vh] sm:h-[70vh] lg:h-[80vh] w-full lg:w-[55%] overflow-hidden rounded-2xl transition-shadow duration-300 ease-in-out hover:shadow-xl hover:shadow-slate-700"
           >
             <img
               src={mix}
