@@ -33,7 +33,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between items-center mt-10 space-y-6 md:space-y-0">
         {/* Brand */}
         <div className="text-xl md:text-2xl font-semibold tracking-wider">
-          Scrap & Store
+          Scrap Store
         </div>
 
         {/* Social Icons */}
@@ -50,7 +50,7 @@ const Footer = () => {
         </div>
 
         {/* Copyright */}
-        <p className="text-sm text-slate-400">&copy; 2025 Scrap & Store. All Rights Reserved.</p>
+        <p className="text-sm text-slate-400">&copy; 2025 Scrap Store. All Rights Reserved.</p>
       </div>
     </footer>
   );

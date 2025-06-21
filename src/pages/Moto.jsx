@@ -9,7 +9,7 @@ const Moto = () => {
     const { scrollYProgress } = useViewportScroll();
     const scale = useTransform(scrollYProgress, [0, 1], [.5, 1]);
   return (
-    <div className='flex justify-center items-center  bg-slate-50 h-[50vh] pb-[10vh]  md:h-[60vh] lg:h-[70vh] text-black'>
+    <div className='p-6 flex justify-center items-center  bg-slate-50 h-[60vh] pb-[10vh]  md:h-[60vh] lg:h-[70vh] text-black'>
        <motion.div 
       initial={{ opacity: 0, y:100 ,scale:1}}
       whileInView={{
